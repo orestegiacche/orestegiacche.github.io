@@ -1,0 +1,160 @@
+ @font-face {
+  font-family: 'bodyfont';
+  src: url('../fonts/Ubuntu-Regular.ttf');
+			}
+
+@font-face {
+  font-family: 'bodyfontbold';
+  src: url('../fonts/Ubuntu-Bold.ttf');
+			}
+
+body {
+	margin: 0;
+	padding: 0;
+	/*background-color: rgb(166,162,114);*/
+	background-image: url(../img/elnido.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h4 {
+	font-family: bodyfontbold;
+}
+
+p {
+	font-family: bodyfont;
+}
+
+a {
+	color:rgb(34,37,20);
+	font-family: bodyfontbold;
+}
+
+
+.card {
+	opacity: 0.9;
+}
+
+.profile-pic {
+	width: 100%;
+}
+
+.card-title {
+	padding: 5px;
+}
+
+.card-text {
+	padding: 5px;
+}
+
+.test {
+    margin-top: 17%;
+}
+
+.MyName {
+	margin-top: 13px;
+}
+a:hover {
+	text-decoration: none;
+ }
+
+.fa-spotify:before {
+ 	color: #84bd00;
+ }
+
+.fa-facebook-square:before {
+ 	color: #3b5998;
+ }
+
+ .fa-linkedin-square {
+ 	color: #4875B4;
+ }
+
+ .fa-twitter {
+ 	color:#33CCFF;
+ }
+
+.nav-button {
+	margin-left: -10%;
+}
+
+.social-icons{
+	text-align: center;
+}
+
+.social-icons .fa {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 25px;
+}
+
+.no-border{
+	    border-radius: 0px;
+}
+
+.nav-color{
+
+	background-color: rgb(115, 110, 52);
+	opacity: .9;
+}
+
+.conatainer-top-margin {
+    margin-top: 95px;
+}
+
+.btn-danger {
+	color:rgb(174,173,143);
+	background-color:rgb(34,37,20);
+	border-color: rgb(34,37,20);
+}
+
+.profpic {
+	width: 100%;
+    margin-top: 50%;
+    border-radius: 8px;
+}
+
+.profname {
+	text-align: center;
+	font-family: bodyfontbold;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-button {
+    	margin-left: 0px;
+    }
+    .test {
+    	margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .nav-button {
+    	margin-left: 0px;
+    }
+}
+
+
+/*
+
+How to hover!!!
+
+p:hover {
+	color: red;
+}
+
+.hovtrial:hover {
+	background-color: black;
+	color:white;
+}*/
+/*
+Can I make these transparent?
+.card-block
+{
+	opacity: 70%;
+}
+
+Also what about gird-row col-3 as a div class?
+*/
